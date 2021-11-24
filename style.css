@@ -1,0 +1,580 @@
+header {
+  text-align: center;
+  padding-left: 0;
+}
+
+.main {
+  margin: 0;
+}
+
+.grobal-nav li {
+  margin-right: auto;
+}
+
+.global-nav .txt {
+  list-style: none;
+  float: left;
+  margin: 0;
+  padding: 7px 1%;
+  width: 8%;
+  background-color: #202020;
+}
+
+.global-nav .txt:hover {
+  animation: flash 1s linear infinite;
+}
+
+.global-nav .txt a {
+  text-decoration: none;
+  color: aliceblue;
+  font-size: 15px;
+}
+
+.icon {
+  list-style: none;
+  float: left;
+  margin: 0;
+  padding: 10px 1% 4px;
+  width: 8%;
+  background-color: #202020;
+}
+
+.icon:hover {
+  animation: flash 1s linear infinite;
+}
+
+
+.type-list {
+  clear: both;
+  background-color: #f5f5f5;
+}
+
+
+.type-list li {
+  /* 横スクロール用 */
+  display: inline-block;
+  width: 10%;
+
+  /* 見た目調整 */
+  height: 60px;
+  margin: 0 9px;
+  font-size: 10px;
+  background-color: #f5f5f5;
+}
+
+.type-list ul {
+  overflow-x: auto;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+}
+
+.type-list p {
+  margin: 10px 0 0;
+  padding-bottom: 0;
+}
+
+.type-list p:hover {
+  animation: fluffy1 3s ease infinite;
+}
+
+.first {
+  text-align: center;
+  margin: 40px 1%;
+}
+
+.first h1 {
+  font-size: 60px;
+}
+
+.first p {
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.space {
+  margin-bottom: 600px;
+}
+
+.macbookpro .image {
+  float: left;
+  width: 50%;
+  padding-right: 0;
+}
+
+.macbookpro .macbookpro-img img {
+  padding: 0 20px 0 0;
+  width: 450px;
+  height: 450px;
+  float: right;
+}
+
+.macbookpro .title {
+  float: right;
+  margin: 120px 0 0;
+  width: 50%
+}
+
+.macbookpro .model {
+  font-size: 12px;
+  margin: 0;
+}
+
+.macbookpro .name {
+  font-size: 34px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.macbookpro .sec {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.macbookpro .kounyuu {
+  color: #fff;
+  background-color: dodgerblue;
+  border-radius: 40px;
+  text-align: center;
+  width: 50px;
+  font-size: 13px;
+  padding: 5px 4px;
+}
+
+.macbookpro .kuwasiku {
+  color: dodgerblue;
+}
+
+.macpro .image {
+  float: right;
+  width: 50%;
+  padding-right: 0;
+}
+
+.macpro .macpro-img img {
+  padding: 0 0 0 20px;
+  width: 450px;
+  height: 450px;
+}
+
+.macpro .title {
+  float: left;
+  margin: 150px 0 0;
+  width: 50%;
+  text-align: end;
+}
+
+
+.macpro .name {
+  font-size: 34px;
+  font-weight: 600;
+  margin: 0;
+  padding-right: 74px;
+}
+
+.macpro .sec {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.macpro .kounyuu {
+  color: #fff;
+  background-color: dodgerblue;
+  border-radius: 40px;
+  text-align: center;
+  width: 50px;
+  font-size: 13px;
+  padding: 5px 4px;
+  margin: 10px 0 10px auto;
+  margin-right: 162px;
+}
+
+.macpro .kuwasiku {
+  color: dodgerblue;
+  padding-right: 112px;
+}
+
+
+.prodisplay .image {
+  float: left;
+  width: 50%;
+  padding-right: 0;
+  margin: 255px 0 150px;
+}
+
+.prodisplay .prodisplay-img img {
+  padding: 0 20px 0 0;
+  width: 450px;
+  height: 450px;
+  float: right;
+}
+
+.prodisplay .title {
+  float: right;
+  margin: 260px 0 0;
+  width: 50%
+}
+
+.prodisplay .model {
+  font-size: 12px;
+  margin: 0;
+}
+
+.prodisplay .name {
+  font-size: 34px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.prodisplay .sec {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.prodisplay .kounyuu {
+  color: #fff;
+  background-color: dodgerblue;
+  border-radius: 40px;
+  text-align: center;
+  width: 50px;
+  font-size: 13px;
+  padding: 5px 4px;
+}
+
+.prodisplay .kuwasiku {
+  color: dodgerblue;
+}
+
+.sec1 {
+  clear: both;
+  padding: 40px 0 0;
+  background-color: #f5f5f5;
+  width: 800px;
+  margin: 0 auto;
+}
+
+.fit {
+  margin: 0 auto;
+}
+
+.fit .sml {
+  list-style: none;
+  font-size: 14px;
+  margin: 20px 0;
+  padding: 0;
+}
+
+.fit .smlsml {
+  margin: 0;
+  padding: 0;
+  margin-top: 50px;
+}
+
+.fit .price p {
+  margin: 0;
+  padding: 0;
+}
+
+.fit .name p {
+  font-weight: 700;
+  font-size: 19px;
+  margin: 0;
+  padding: 0;
+}
+
+.sec1 .title {
+  text-align: center;
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.fit .big {
+  float: left;
+  margin: 0 40px 0 0;
+}
+
+.fit .big:nth-child(3) {
+  margin-right: 0;
+}
+
+.fit .bigbig {
+  list-style: none;
+}
+
+.sec1 .hikaku {
+  clear: both;
+  width: auto;
+  text-align: center;
+  color: dodgerblue;
+  padding: 60px 0 60px;
+}
+
+.macbookair .kounyuu {
+  margin-top: 40px;
+}
+
+.fit .kounyuu {
+  color: #fff;
+  background-color: dodgerblue;
+  border-radius: 40px;
+  text-align: center;
+  width: 50px;
+  font-size: 13px;
+  padding: 5px 4px;
+}
+
+.fit .kuwasiku {
+  color: dodgerblue;
+}
+
+.fit img {
+  width: 200px;
+}
+
+.sec2 {
+  clear: both;
+  padding: 40px 0 40px;
+  background-color: #fbfbfb;
+  width: 800px;
+  margin: 0 auto 20px;
+}
+
+.gift-apple {
+  clear: both;
+  text-align: center;
+  margin: 0 376px 5px;
+}
+
+.anohito {
+  font-size: 35px;
+  text-align: center;
+  font-weight: 700;
+  margin: 0;
+}
+
+.sec2 .miru {
+  text-align: center;
+  color: dodgerblue;
+}
+
+.sec2 .image {
+  text-align: center;
+  margin: 0 10px 0;
+}
+
+.sec2 .image img {
+  margin: 20px 30px 0;
+  width: 140px;
+}
+
+.sec2 .image img:hover {
+  animation: r2 1s linear infinite;
+}
+
+.sec3 {
+  width: 800px;
+  text-align: center;
+  margin: 0 auto 0;
+}
+
+.acce .sub {
+  font-size: 19px;
+  text-align: center;
+}
+
+.acce-1,
+.trade-in-1 {
+  font-size: 35px;
+  text-align: center;
+  font-weight: 700;
+  margin: 0;
+}
+
+.acce,
+.trade-in {
+  width: 390px;
+  background-color: #f5f5f5;
+  margin-bottom: 20px;
+}
+
+.sec3 .sub {
+  padding: 35px 0 10px;
+  margin: 0;
+  font-weight: 700;
+}
+
+.acce {
+  margin-right: 10px;
+}
+
+.trade-in {
+  margin-left: 10px;
+}
+
+.sec3-li {
+  float: left;
+  margin: 0;
+  padding: 0;
+}
+
+.sec3-ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.sec3 img {
+  width: 390px;
+  height: 200px;
+}
+
+.sec3 .miru {
+  color: #fff;
+  background-color: dodgerblue;
+  border-radius: 40px;
+  text-align: center;
+  width: 50px;
+  font-size: 13px;
+  padding: 5px 4px;
+  margin: 10px 166px 170px;
+}
+
+.sec3 .siraberu {
+  color: dodgerblue;
+  margin-bottom: 40px;
+  font-size: 14px;
+}
+
+footer {
+  background-color: #f5f5f5;
+  clear: both;
+  width: auto;
+}
+
+.footer-careful {
+  border-bottom: 3px;
+  font-size: 12px;
+  padding: 10px 40px 10px 0;
+  color: #808080;
+}
+
+.footer-careful .sub {
+  margin: 0 0 0 22px;
+}
+
+.footer-careful li {
+  margin: 10px 0;
+}
+
+.footer-careful {
+  border-bottom: solid 1px #d3d3d3;
+}
+
+.pan {
+  float: left;
+  margin: 20px 0 0 20px;
+}
+
+.footer-nav ul {
+  list-style: none;
+  float: left;
+  padding-left: 70px;
+  margin-right: auto;
+  margin-top: 0;
+}
+
+.footer-nav ul:nth-child(1) {
+  padding-left: 12px;
+}
+
+.footer-nav-a {
+  clear: both;
+}
+
+.footer-nav li {
+  margin: 10px 10px;
+  0;
+  font-size: 12px;
+}
+
+.footer-nav .title {
+  margin-top: 30px;
+  font-weight: 700
+}
+
+.kounyuuhouhou {
+  clear: both;
+  font-size: 11px;
+  padding-bottom: 10px;
+  border-bottom: solid 1px #d3d3d3;
+  margin-left: 21px;
+}
+
+.copy-write {
+  font-size: 13px;
+  margin: 0 0 0 29px;
+}
+
+.lang {
+  float: right;
+}
+
+@keyframes flash {
+
+  0%,
+  100% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+  }
+}
+
+@keyframes fluffy1 {
+  0% {
+    transform: translateX(0)
+  }
+
+  5% {
+    transform: translateX(0)
+  }
+
+  10% {
+    transform: translateX(0)
+  }
+
+  20% {
+    transform: translateX(-15px)
+  }
+
+  25% {
+    transform: translateX(0)
+  }
+
+  30% {
+    transform: translateX(-15px)
+  }
+
+  50% {
+    transform: translateX(0)
+  }
+
+  100% {
+    transform: translateX(0)
+  }
+}
+
+@keyframes r2 {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(-360deg);
+  }
+}
